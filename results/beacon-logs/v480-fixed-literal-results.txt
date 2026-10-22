@@ -1,0 +1,3 @@
+# v480-fixed-literal-results.txt
+
+Full original from PS5 14.10 research zip.
