@@ -1,19 +1,20 @@
-# PS5 14.10 Jailbreak Research
+# JailbreakX — PS5 14.10 Research
 
-WebKit jailbreak research for PlayStation 5 firmware 14.10. All data comes from probes that ran on the actual console.
+WebKit jailbreak research for PlayStation 5 firmware 14.10.
 
-> **Disclaimer:** Authorized security research on personally owned hardware. For educational and research purposes only.
+## Setup Tutorial
 
-## Target
+1. On your PS5 go to **Settings → Network → Set Up Internet Connection**.
+2. Select your network → **Options** → **Advanced Settings**.
+3. Set **DNS Settings** to **Manual**.
+4. Primary DNS: **45.56.67.85**
+5. Secondary DNS: leave empty or use `1.1.1.1`.
+6. Save and connect.
+7. Open **User's Guide**.
+8. If it does not redirect automatically, enter this URL:  
+   `https://ftrevino739-ctrl.github.io/PS5-14.10-JB/`
 
-Validated on device (p163).
+> Note: Full exploit chain for 14.10 is still under research. This page is for research/probes.
 
-| Property | Value |
-|----------|-------|
-| Platform | PlayStation 5 |
-| Firmware | 14.10 |
-| Browser | Safari 17.0 / AppleWebKit 605.1.15 |
-| JIT | Disabled (LLInt only) |
-| Cores | 4 |
-
-Full original README from the research zip. See probes/ and docs/ for details.
+## Disclaimer
+Authorized security research on personally owned hardware. For educational and research purposes only.
